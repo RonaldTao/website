@@ -21,13 +21,13 @@
                 <name>Ran Tao</name>
               </p>
               <p>
-                I am a Ph.D. student at University of Illinois at Urbana Champaign advised by <a href="https://scholar.google.com/citations?hl=en&user=8mA9QpUAAAAJ">Prof. Naira Hovakimyan</a>.
-                My research interests include adatpive control, model predictive control, optimization, and applicaion of Aritifical intelligence on engineering problems.
+                I am a Ph.D. student at University of Illinois Urbana Champaign advised by <a href="https://scholar.google.com/citations?hl=en&user=8mA9QpUAAAAJ">Prof. Naira Hovakimyan</a>.
+                My research interests include adatpive control, model predictive control, optimization, and machine learning for autonomous systems.
                 I received my Bachlor of Science at UIUC in May 2021 and the Master of Science at UIUC in December 2022.
               </p>
               <p style="text-align:center">
                 <a href="mailto:rant3@illinois.edu">Email</a>  &nbsp/&nbsp
-                <a href="files/Ran_Tao_CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="files/Ran_Tao_Resume.pdf">Resume</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=E8ZS0SkAAAAJ&hl=en">Google Scholar</a>
                 <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp
                 <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp
@@ -45,7 +45,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <heading>Published Papers</heading>
               <!-- <p>
                 I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
               </p> -->
@@ -54,67 +54,6 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr>
-            <!-- <td width="40%" valign="top" align="center"><a>
-              <img src="images/f1.jpg" alt="sym" width="80%" style="margin-top:15px;padding-top:0px;padding-bottom:0px;border-radius:15px;"></video> -->
-         <!-- <img src="images/rma.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"> -->
-   </a></td>
-            <td width="100%" valign="top">
-              <papertitle style="font-size:20px;">Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations</papertitle></a><br>
-              Jing Wu, <b>Ran Tao</b>, Pan Zhao, Nicolas F. Martin, Naira Hovakimyan
-              <br/>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2022, pp. 1712-1720
-              </p>
-              <div class="paper" id="RL1">
-              <a href="https://arxiv.org/abs/2204.10394">arXiv</a> |
-              <a href="javascript:toggleblock('RL1_abs')">abstract</a> |
-              <!-- <a shape="rect" href="javascript:togglebib('RL1_bib')" class="togglebib">bibtex</a> | -->
-              <p align="justify"> <i id="RL1_abs"> Nitrogen (N) management is critical to sustain soil fertility and crop production while minimizing the negative environmental impact, but is challenging to optimize. This paper proposes an intelligent N management system using deep reinforcement learning (RL) and crop simulations with Decision Support System for Agrotechnology Transfer (DSSAT). We first formulate the N management problem as an RL problem. We then train management policies with deep Q-network and soft actor-critic algorithms, and the Gym-DSSAT interface that allows for daily interactions between the simulated crop environment and RL agents. According to the experiments on the maize crop in both Iowa and Florida in the US, our RL-trained policies outperform previous empirical methods by achieving higher or similar yield while using less fertilizers.
-              </i></p>
-              <small><i id="RL1_bib"><pre xml:space="preserve">
-@inproceedings{wu2022optimizing,
-title={Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations},
-author={Wu, Jing and Tao, Ran and Zhao, Pan and Martin, Nicolas F and Hovakimyan, Naira},
-booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-pages={1712--1720},
-year={2022}
-}
-   </pre></i></small>
-          </div>
-          </td>
-          </tr>
-
-
-
-          <tr>
-            <!-- <td width="40%" valign="top" align="center"><a>
-              <img src="images/f2.jpg" alt="sym" width="80%" style="margin-top:15px;padding-top:0px;padding-bottom:0px;border-radius:15px;"></video> -->
-            <td width="100%" valign="top">
-              <papertitle style="font-size:20px;">Optimizing Crop Management with Reinforcement Learning and Imitation Learning</papertitle></a><br>
-              <b>Ran Tao</b>, Pan Zhao, Jing Wu, Nicolas F. Martin, Matthew T. Harrison, Carla Ferreira, Zahra Kalantari, Naira Hovakimyan
-              <br/> Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence
-AI for Good. Pages 6228-6236. https://doi.org/10.24963/ijcai.2023/691
-              </p>
-              <div class="paper" id="RL2">
-              <a href="https://arxiv.org/abs/2209.09991">arXiv</a> |
-              <a href="javascript:toggleblock('RL2_abs')">abstract</a> |
-              <!-- < <a shape="rect" href="javascript:togglebib('RL2_bib')" class="togglebib">bibtex</a> | -->
-              <p align="justify"> <i id="RL2_abs"> Crop management, including nitrogen (N) fertilization and irrigation management, has a significant impact on the crop yield, economic profit, and the environment. Although management guidelines exist, it is challenging to find the optimal management practices given a specific planting environment and a crop. Previous work used reinforcement learning (RL) and crop simulators to solve the problem, but the trained policies either have limited performance or are not deployable in the real world. In this paper, we present an intelligent crop management system which optimizes the N fertilization and irrigation simultaneously via RL, imitation learning (IL), and crop simulations using the Decision Support System for Agrotechnology Transfer (DSSAT). We first use deep RL, in particular, deep Q-network, to train management policies that require all state information from the simulator as observations (denoted as full observation). We then invoke IL to train management policies that only need a limited amount of state information that can be readily obtained in the real world (denoted as partial observation) by mimicking the actions of the previously RL-trained policies under full observation. We conduct experiments on a case study using maize in Florida and compare trained policies with a maize management guideline in simulations. Our trained policies under both full and partial observations achieve better outcomes, resulting in a higher profit or a similar profit with a smaller environmental impact. Moreover, the partial-observation management policies are directly deployable in the real world as they use readily available information.
-              </i></p>
-              <small><i id="RL2_bib"><pre xml:space="preserve">
-@article{tao2022optimizing,
-title={Optimizing Crop Management with Reinforcement Learning and Imitation Learning},
-author={Tao, Ran and Zhao, Pan and Wu, Jing and Martin, Nicolas F and Harrison, Matthew T and Ferreira, Carla and Kalantari, Zahra and Hovakimyan, Naira},
-journal={arXiv preprint arXiv:2209.09991},
-year={2022}
-}
- </pre></i></small>
-            </div>
-            </td>
-            </tr>
-
-
-
-
 
             <tr>
               <!-- <td width="40%" valign="top" align="center"><a>
@@ -122,7 +61,7 @@ year={2022}
               <td width="60%" valign="top">
                 <papertitle style="font-size:20px;">Backup Plan Constrained Model Predictive Control with Guaranteed Stability</papertitle></a><br>
                 <b>Ran Tao</b>, Hunmin Kim, Hyung-Jin Yoon, Wenbin WanNaira Hovakimyan, Lui Sha, Petros Voulgaris
-                <br/> AIAA Jounral of Guidance, Control, and Dynamics, accessed 2023/10, doi:10.2514/1.G007627
+                <br/> AIAA Journal of Guidance, Control, and Dynamics, 47(2), 233-246.
                 </p>
                 <div class="paper" id="bakcupplan">
                 <a href="https://arxiv.org/abs/2306.06102">arXiv</a> |
@@ -152,7 +91,7 @@ year={2022}
                 <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
                 <papertitle style="font-size:20px;">Robust Adaptive MPC Using Uncertainty Compensation</papertitle></a><br>
                 <b>Ran Tao</b>, Pan Zhao, Ilya Kolmanovsky, and Naira Hovakimyan<br>
-                Accetped at 2024 American Control Conference (ACC)
+                In 2024 American Control Conference (ACC), pp. 1873-1878. IEEE, 2024.
                 </p>
 
                 <div class="paper" id="ARMPC">
@@ -188,7 +127,7 @@ year={2022}
                 <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
                 <papertitle style="font-size:20px;">DiffTune-MPC: Closed-Loop Learning for Model Predictive Control</papertitle></a><br>
                 <b>Ran Tao</b>, Sheng Cheng, Xiaofeng Wang, Shenlong Wang, Naira Hovakimyan<br>
-                Submmited to IEEE Robotics and Automation Letters, Under Review
+                IEEE Robotics and Automation Letters (2024).
                 </p>
 
                 <div class="paper" id="ARMPC">
@@ -211,7 +150,63 @@ year={2022}
               </td>
               </tr>
 
-
+              <tr>
+                <!-- <td width="40%" valign="top" align="center"><a>
+                  <img src="images/f1.jpg" alt="sym" width="80%" style="margin-top:15px;padding-top:0px;padding-bottom:0px;border-radius:15px;"></video> -->
+             <!-- <img src="images/rma.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"> -->
+       </a></td>
+                <td width="100%" valign="top">
+                  <papertitle style="font-size:20px;">Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations</papertitle></a><br>
+                  Jing Wu, <b>Ran Tao</b>, Pan Zhao, Nicolas F. Martin, Naira Hovakimyan
+                  <br/>In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2022, pp. 1712-1720
+                  </p>
+                  <div class="paper" id="RL1">
+                  <a href="https://arxiv.org/abs/2204.10394">arXiv</a> |
+                  <a href="javascript:toggleblock('RL1_abs')">abstract</a> |
+                  <!-- <a shape="rect" href="javascript:togglebib('RL1_bib')" class="togglebib">bibtex</a> | -->
+                  <p align="justify"> <i id="RL1_abs"> Nitrogen (N) management is critical to sustain soil fertility and crop production while minimizing the negative environmental impact, but is challenging to optimize. This paper proposes an intelligent N management system using deep reinforcement learning (RL) and crop simulations with Decision Support System for Agrotechnology Transfer (DSSAT). We first formulate the N management problem as an RL problem. We then train management policies with deep Q-network and soft actor-critic algorithms, and the Gym-DSSAT interface that allows for daily interactions between the simulated crop environment and RL agents. According to the experiments on the maize crop in both Iowa and Florida in the US, our RL-trained policies outperform previous empirical methods by achieving higher or similar yield while using less fertilizers.
+                  </i></p>
+                  <small><i id="RL1_bib"><pre xml:space="preserve">
+    @inproceedings{wu2022optimizing,
+    title={Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations},
+    author={Wu, Jing and Tao, Ran and Zhao, Pan and Martin, Nicolas F and Hovakimyan, Naira},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages={1712--1720},
+    year={2022}
+    }
+       </pre></i></small>
+              </div>
+              </td>
+              </tr>
+    
+    
+    
+              <tr>
+                <!-- <td width="40%" valign="top" align="center"><a>
+                  <img src="images/f2.jpg" alt="sym" width="80%" style="margin-top:15px;padding-top:0px;padding-bottom:0px;border-radius:15px;"></video> -->
+                <td width="100%" valign="top">
+                  <papertitle style="font-size:20px;">Optimizing Crop Management with Reinforcement Learning and Imitation Learning</papertitle></a><br>
+                  <b>Ran Tao</b>, Pan Zhao, Jing Wu, Nicolas F. Martin, Matthew T. Harrison, Carla Ferreira, Zahra Kalantari, Naira Hovakimyan
+                  <br/> In Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence
+    AI for Good. Pages 6228-6236. 
+                  </p>
+                  <div class="paper" id="RL2">
+                  <a href="https://arxiv.org/abs/2209.09991">arXiv</a> |
+                  <a href="javascript:toggleblock('RL2_abs')">abstract</a> |
+                  <!-- < <a shape="rect" href="javascript:togglebib('RL2_bib')" class="togglebib">bibtex</a> | -->
+                  <p align="justify"> <i id="RL2_abs"> Crop management, including nitrogen (N) fertilization and irrigation management, has a significant impact on the crop yield, economic profit, and the environment. Although management guidelines exist, it is challenging to find the optimal management practices given a specific planting environment and a crop. Previous work used reinforcement learning (RL) and crop simulators to solve the problem, but the trained policies either have limited performance or are not deployable in the real world. In this paper, we present an intelligent crop management system which optimizes the N fertilization and irrigation simultaneously via RL, imitation learning (IL), and crop simulations using the Decision Support System for Agrotechnology Transfer (DSSAT). We first use deep RL, in particular, deep Q-network, to train management policies that require all state information from the simulator as observations (denoted as full observation). We then invoke IL to train management policies that only need a limited amount of state information that can be readily obtained in the real world (denoted as partial observation) by mimicking the actions of the previously RL-trained policies under full observation. We conduct experiments on a case study using maize in Florida and compare trained policies with a maize management guideline in simulations. Our trained policies under both full and partial observations achieve better outcomes, resulting in a higher profit or a similar profit with a smaller environmental impact. Moreover, the partial-observation management policies are directly deployable in the real world as they use readily available information.
+                  </i></p>
+                  <small><i id="RL2_bib"><pre xml:space="preserve">
+    @article{tao2022optimizing,
+    title={Optimizing Crop Management with Reinforcement Learning and Imitation Learning},
+    author={Tao, Ran and Zhao, Pan and Wu, Jing and Martin, Nicolas F and Harrison, Matthew T and Ferreira, Carla and Kalantari, Zahra and Hovakimyan, Naira},
+    journal={arXiv preprint arXiv:2209.09991},
+    year={2022}
+    }
+     </pre></i></small>
+                </div>
+                </td>
+                </tr>
 
             <tr>
             <!-- <td width="33%" valign="top" align="center"><a >
@@ -223,7 +218,7 @@ year={2022}
               <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
               <papertitle style="font-size:20px;">Three-Dimensional Printable Nanoporous Polymer Matrix Composites for Daytime Radiative Cooling</papertitle></a><br>
               Kai Zhou, Wei Li, Bijal Bankim Patel, <b>Ran Tao</b>, Yilong Chang, Shanhui Fan, Ying Diao, and Lili Cai<br>
-              Nano Letter 2021
+              Nano Letters 2021
               </p>
 
               <div class="paper" id="cooling">
